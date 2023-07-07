@@ -78,6 +78,18 @@ bashCopy code
 
 `vagrant destroy -f` 
 
+
+use bash init.sh to init the scripts and install dependencies in each vm
+Init.sh usage --> Configuration Scripts:
+
+This repository includes the following scripts that you can use for configuration:
+
+-   **docker-install**: Installs Docker and sets up containerd.
+    
+-   **kubernetes-install**: Installs Kubernetes components (kubelet, kubeadm, kubectl).
+    
+-   **Iptables**: Configures required sysctl parameters and restarts containerd.
+
 ## Contributing
 
 If you would like to contribute to this project, feel free to open issues or submit pull requests. Contributions are always welcome!
