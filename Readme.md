@@ -16,13 +16,11 @@ To get started with the on-premises Kubernetes setup, follow the steps below:
 
 1.  Clone this repository to your local machine:
     
-    bashCopy code
     
     `git clone https://github.com/tarunratan/kubernetes-on-prem.git 
     
 2.  Navigate to the cloned repository:
     
-    bashCopy code
     
     `cd kubernetes-on-prem.git` 
     
@@ -74,7 +72,6 @@ For detailed information on using Kubernetes, refer to the [Kubernetes documenta
 
 To tear down the on-premises Kubernetes cluster and remove all associated virtual machines, use the following command:
 
-bashCopy code
 
 `vagrant destroy -f` 
 
